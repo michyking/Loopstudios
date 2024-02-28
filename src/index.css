@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+.hero{
+  color: var(--White);
+}
+
+.text-font{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header-font{
+  font-family: "Alata", sans-serif;
+}
+
+/* BUTTON */
+
+.btn{
+  background: transparent;
+  border: 2px solid hsl(0, 0%, 55%);
+  padding: 5px 40px;
+  color: var(--Very-Dark-Gray);
+  border-radius: 3px;
+}
+
+.btn:hover{
+  background-color: var(--Black);
+  border: 2px solid var(--Black);
+  color: var(--White);
+}
+
+.creation{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
