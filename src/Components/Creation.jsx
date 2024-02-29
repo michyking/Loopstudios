@@ -22,6 +22,7 @@ export const Creation = ({ desImg, mobImg, txt }) => {
       display={{ base: "none", md: "block" }}
       objectFit="cover"
       width={"100%"}
+      
     />
     {/* Text */}
     <Text
